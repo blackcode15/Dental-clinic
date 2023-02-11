@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 100%;
+}
+.row {
+    display: flex;
+    width: 100%;
+}
+
+/* Сітка сайту */
+.col-pc-1 { width: calc(1 / 12 * 100%); }
+.col-pc-2 { width: calc(2 / 12 * 100%); }
+.col-pc-3 { width: calc(3 / 12 * 100%); }
+.col-pc-4 { width: calc(4 / 12 * 100%); }
+.col-pc-5 { width: calc(5 / 12 * 100%); }
+.col-pc-6 { width: calc(6 / 12 * 100%); }
+.col-pc-7 { width: calc(7 / 12 * 100%); }
+.col-pc-8 { width: calc(8 / 12 * 100%); }
+.col-pc-9 { width: calc(9 / 12 * 100%); }
+.col-pc-10 { width: calc(10 / 12 * 100%); }
+.col-pc-11 { width: calc(11 / 12 * 100%); }
+.col-pc-12 { width: calc(12 / 12 * 100%); }
+
+/* Nav */
+.container__nav {
+    display: flex;
+    background: #fff;
+}
+.row__nav {
+    display: flex;
+}
+.nav__img {
+    width: 133px;
+    height: 41px;
+    margin: 36px 317px 27px 50px;
+    background: #8B8B8B;
+}
+.nav__menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.nav__menu li {
+    display: inline-block;
+}
+.nav__menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 46px 50px 37px 0;
+}
+.nav__icon {
+    margin: 30px 0 25px 449px;
+    background: #0086DA;
+    border-radius: 50%;
+}
+.nav__icon img {
+    width: 25px;
+    height: 25px;
+    margin: 12px 13px 13px 12px;
+}
+.nav_portfolio {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.nav_portfolio li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 46px 0 37px 113px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Header */
+.container__header {
+    display: flex;
+    height: 895px;
+    background-image: url(img/img-header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.row__header {
+    margin: 163px 1166px 0 203px;
+}
+.row__header h1 {
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+}
+.p1 {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin: 0 0 20px 0;
+}
+.p2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin: 20px 0 50px 0;
+}
+.button {
+    width: 287px;
+    border: 0.5px solid white;
+}
+.button p {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    margin: 20px 100px 20px 100px;
+}
+
+/* History */
+.color3 {
+    height: 939px;
+    background: white;
+}
+
+.row__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0086DA;
+    float: right;
+}
+.h1__button p {
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 31px 120px 31px 120px;
+    text-align: center;
+    color: white;
+}
+
+
+.container__text {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.text__about {
+    display: flex;
+    margin: 0 0 0 50px;
+    border: 1px solid red;
+
+}
+.text__about p {
+    display: flex;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+.point {
+    width: 5px;
+    height: 5px;
+    background: #D7D7D7;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+.point-blue {
+    width: 10px;
+    height: 10px;
+    background: #0086DA;
+    border-radius: 50%;
+    margin: 25px auto;
+} 
+
+.text__info {
+    margin: 138px 153px 0 97px;
+}
+.text__info h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+.text__info p {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    margin: 0 0 20px 0;
+}
+.info__button {
+    width: 287px;
+    margin: 70px 0 250px 0;
+    border: 0.5px solid black;
+}
+.info__button p {
+    margin: 20px 51px 20px 51px;
+    font-size: 15;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+.row__img__fon {
+    display: flex;
+    height: 100%;
+    background-image: url(img/team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Therapy */
+.container__therapy {
+    background-image: url(img/therapy.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.therapy__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 230px 280px 230px 280px;
+}
+.h1__button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0086DA;
+    width: 426px;
+    margin: 0 0 64px 0;
+}
+.h1__button1 p {
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 31px 0 31px 0;
+    text-align: center;
+    color: white;
+}
+.therapy__container h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: mixed;
+    text-align: center;
+    line-height: 150%;
+    margin: 0 430px 0 473px;
+}
+.therapy__container h1 p {
+    font-weight: 400;
+}
+.therapy__text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%   ;
+    margin: 18px 327px 64px 365px;
+}
+.therapy__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 436px;
+    border: 0.5px solid white;
+}
+.block p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin: 68px 0 68px 0;
+}
+
+/* Statistics */
+.container__statistics {
+    /* height: 777px; */
+    background-image: url(img/statistic.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.statistic__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 200px 0;
+}
+.statistic__container .result {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 80px 0 96px 0;
+}
+.block__results {
+    display: flex;
+    flex-direction: row;
+    gap: 249px;
+    margin: 0 357px 0 357px;
+}
+.text_block {
+    text-align: center;
+    line-height: 137.9%;
+    color: #727272;
+    font-size: 30px;
+    font-weight: 400;
+}
+.number {
+    color: #0086DA;
+    line-height: 137.9%;
+    font-size: 70px;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+.patients {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    line-height: 137.9%;
+}
+
+
+/* Questions */
+.container__questions {
+    height: 1551px;
+    background: #71A669;
+}
+
+/* Contacts */
+.container__contacts {
+    display: flex;
+}
+.color5 {
+    height: 1175px;
+    background: #999650;
+}
+
+.contacts__container {
+    display: flex;
+    flex-direction: column;
+}
+.contact__foto {
+    display: flex;
+    height: 1036px;
+    background-image: url(img/contacts.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container__info {
+    display: flex;
+    margin: 122px 0 0 205px;
+}
+.info__h1 h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0 0 11px 0;
+}
+.info__h1 p {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info__contact {
+    margin: 0 5px 0 79px;
+}
+.contact__block {
+    margin: 0 0 20px 0;
+}
+.contact__block p {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.img_icon {
+    display: flex;
+}
+.img_icon img {
+    margin: 0 10px 10px 0;
+}
+.img_icon p {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* Map */
+.h1__button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0086DA;
+    width: 426px;
+    margin: 0 0 0 203px;
+}
+.h1__button2 p {
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 31px 120px 31px 120px;
+    text-align: center;
+    color: white;
+}
+
+
+/* Footer */
+.container__footer {
+    background: #F9F9F9;
+}
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 60px 281px 42px 308px;
+}
+.footer__block {
+    display: flex;
+    flex-direction: column;
+}
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.footer__nav li {
+    display: inline-block;
+}
+.footer__nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 30px 0 30px;
+    /* margin: 46px 50px 37px 0; */
+}
+.block__img_text {
+    display: flex;
+    flex-direction: row;
+}
+.block__img_text img {
+    width: 20px;
+    height: 20px;
+}
+.block__img_text p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 0 10px;
+}
+.text__p p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0 30px 30px;
+}
+
+/* Footer2 */
+.container__footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #282828;
+    padding: 14px 0 14px;
+    gap: 204px;
+    color: white;
+}
+.footer2__container {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 306px 14px 343px;
+}
+
+
+/* Адаптив для пристроїв */
+/* Планшетна версія */
+@media screen and (max-width: 1000px) {
+    .row {
+        display: grid;
+        flex-direction: row;
+    }
+
+    /* Сітка сайту */
+    .col-tab-1 { width: calc(1 / 12 * 100%); }
+    .col-tab-2 { width: calc(2 / 12 * 100%); }
+    .col-tab-3 { width: calc(3 / 12 * 100%); }
+    .col-tab-4 { width: calc(4 / 12 * 100%); }
+    .col-tab-5 { width: calc(5 / 12 * 100%); }
+    .col-tab-6 { width: calc(6 / 12 * 100%); }
+    .col-tab-7 { width: calc(7 / 12 * 100%); }
+    .col-tab-8 { width: calc(8 / 12 * 100%); }
+    .col-tab-9 { width: calc(9 / 12 * 100%); }
+    .col-tab-10 { width: calc(10 / 12 * 100%); }
+    .col-tab-11 { width: calc(11 / 12 * 100%); }
+    .col-tab-12 { width: calc(12 / 12 * 100%); }
+
+    /* header */
+    .container__header { height: 895px; }
+
+    /* history */
+    .color3 { height: 622px; }
+    .color4 { height: 747px; }
+
+    /* therapy */
+    .container__therapy { height: 713px; }
+
+    /* statistics */
+    .container__statistics { height: 1035px; }
+
+    /* questions */
+    .container__questions { display: none; }
+
+    /* contacts */
+    .color5 { height: 1034px; }
+    .color6 { display: none; }
+
+    /* map */
+    .container__map { height: 497px; }
+
+    /* footer */
+    .container__footer { height: 340px; }
+}
+
+/* Мобільна версія №1 */
+@media screen and (max-width: 768px) {
+    .row {
+        display: grid;
+        flex-direction: row;
+    }
+
+    /* Сітка сайту */
+    .col-mob-1 { width: calc(1 / 12 * 100%); }
+    .col-mob-2 { width: calc(2 / 12 * 100%); }
+    .col-mob-3 { width: calc(3 / 12 * 100%); }
+    .col-mob-4 { width: calc(4 / 12 * 100%); }
+    .col-mob-5 { width: calc(5 / 12 * 100%); }
+    .col-mob-6 { width: calc(6 / 12 * 100%); }
+    .col-mob-7 { width: calc(7 / 12 * 100%); }
+    .col-mob-8 { width: calc(8 / 12 * 100%); }
+    .col-mob-9 { width: calc(9 / 12 * 100%); }
+    .col-mob-10 { width: calc(10 / 12 * 100%); }
+    .col-mob-11 { width: calc(11 / 12 * 100%); }
+    .col-mob-12 { width: calc(12 / 12 * 100%); }
+
+    /* header */
+    .container__header { height: 895px; }
+
+    /* history */
+    .color3 { height: 622px; }
+    .color4 { height: 747px; }
+
+    /* therapy */
+    .container__therapy { height: 713px; }
+
+    /* statistics */
+    .container__statistics { height: 804px; }
+
+    /* questions */
+    .container__questions { display: none; }
+
+    /* contacts */
+    .color5 { height: 1034px; }
+    .color6 { display: none; }
+
+    /* map */
+    .container__map { height: 497px; }
+
+    /* footer */
+    .container__footer { height: 622px; }
+}
+
+/* Мобільна версія №2 */
+@media screen and (max-width: 480px) {
+    .row {
+        display: grid;
+        flex-direction: row;
+    }
+
+    /* Сітка сайту */
+    .col-mob-1 { width: calc(1 / 12 * 100%); }
+    .col-mob-2 { width: calc(2 / 12 * 100%); }
+    .col-mob-3 { width: calc(3 / 12 * 100%); }
+    .col-mob-4 { width: calc(4 / 12 * 100%); }
+    .col-mob-5 { width: calc(5 / 12 * 100%); }
+    .col-mob-6 { width: calc(6 / 12 * 100%); }
+    .col-mob-7 { width: calc(7 / 12 * 100%); }
+    .col-mob-8 { width: calc(8 / 12 * 100%); }
+    .col-mob-9 { width: calc(9 / 12 * 100%); }
+    .col-mob-10 { width: calc(10 / 12 * 100%); }
+    .col-mob-11 { width: calc(11 / 12 * 100%); }
+    .col-mob-12 { width: calc(12 / 12 * 100%); }
+
+    /* header */
+    .container__header { height: 500px; }
+
+    /* history */
+    .color3 { height: 652px; }
+    .color4 { height: 465px; }
+
+    /* therapy */
+    .container__therapy { height: 841px; }
+
+    /* statistics */
+    .container__statistics { height: 768px; }
+
+    /* questions */
+    .container__questions { display: none; }
+
+    /* contacts */
+    .color5 { height: 1378px; }
+    .color6 { display: none; }
+
+    /* map */
+    .container__map { height: 422px; }
+
+    /* footer */
+    .container__footer { height: 768px; }
+}
+
+/* Мобільна версія №3 */
+@media screen and (max-width: 360px) {
+    .row {
+        display: grid;
+        flex-direction: row;
+    }
+
+    /* Сітка сайту */
+    .col-mob-1 { width: calc(1 / 12 * 100%); }
+    .col-mob-2 { width: calc(2 / 12 * 100%); }
+    .col-mob-3 { width: calc(3 / 12 * 100%); }
+    .col-mob-4 { width: calc(4 / 12 * 100%); }
+    .col-mob-5 { width: calc(5 / 12 * 100%); }
+    .col-mob-6 { width: calc(6 / 12 * 100%); }
+    .col-mob-7 { width: calc(7 / 12 * 100%); }
+    .col-mob-8 { width: calc(8 / 12 * 100%); }
+    .col-mob-9 { width: calc(9 / 12 * 100%); }
+    .col-mob-10 { width: calc(10 / 12 * 100%); }
+    .col-mob-11 { width: calc(11 / 12 * 100%); }
+    .col-mob-12 { width: calc(12 / 12 * 100%); }
+
+    /* header */
+    .container__header { height: 409px; }
+
+    /* history */
+    .color3 { height: 693px; }
+    .color4 { height: 349px; }
+
+    /* therapy */
+    .container__therapy { height: 585px; }
+
+    /* statistics */
+    .container__statistics { height: 698px; }
+
+    /* questions */
+    .container__questions { display: none; }
+
+    /* contacts */
+    .color5 { height: 1448px; }
+    .color6 { display: none; }
+
+    /* map */
+    .container__map { height: 418px; }
+
+    /* footer */
+    .container__footer { height: 479px; }
+}
