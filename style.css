@@ -125,14 +125,14 @@ body {
 }
 
 /* History */
-.color3 {
-    height: 939px;
-    background: white;
+.container__history {
+    position: relative;
 }
 
 .row__container {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .h1__button {
@@ -155,6 +155,7 @@ body {
 .container__text {
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 
@@ -167,7 +168,8 @@ body {
 .text__about p {
     display: flex;
     transform: rotate(-90deg);
-    transform-origin: left top 0;
+    position: relative;
+    /* transform-origin: left top 0; */
     font-weight: 400;
     font-size: 15px;
     color: black;
