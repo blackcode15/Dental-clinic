@@ -35,6 +35,7 @@ body {
 }
 .row__nav {
     display: flex;
+    justify-content: center;
 }
 .nav__img {
     width: 133px;
@@ -344,8 +345,37 @@ body {
 /* Questions */
 .container__questions {
     height: 1551px;
-    background: #71A669;
 }
+.questions__container {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 207px 200px 195px;
+}
+.h1__button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0086DA;
+    width: 520px;
+    margin: 0 0 0 5px;
+}
+.h1__button3 p {
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 31px 91px 31px 91px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 
 /* Contacts */
 .container__contacts {
@@ -353,9 +383,7 @@ body {
 }
 .color5 {
     height: 1175px;
-    background: #999650;
 }
-
 .contacts__container {
     display: flex;
     flex-direction: column;
@@ -405,6 +433,65 @@ body {
     font-size: 18px;
 }
 
+.container__form {
+    display: flex;
+    flex-direction: column;
+    margin: 127px 171px 243px 205px;
+}
+.container__form .form__h1 {
+    color: black;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0 0 48px 0;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.feedback-input {
+    width: 287px;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 19px 0;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-bottom: 0.5px solid #000;
+    outline: none;
+}
+.textarea {
+    width: 901px;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-bottom: 0.5px solid #000;
+    outline: none;
+    margin: 96px 0 0 0;
+}
+.button-submit {
+    color: black;
+    font-size: 15px;
+    font-weight: 600px;
+    line-height: 157.4%;
+    padding: 20px 102px 20px 102px;
+    border: 0px solid transparent;
+    border: 0.5px solid black;
+    background-color: white;
+    margin: 61px 0 0 620px;
+}
+
 
 /* Map */
 .h1__button2 {
@@ -427,7 +514,6 @@ body {
     width: 100%;
     height: 620px;
 }
-
 
 /* Footer */
 .container__footer {
@@ -485,17 +571,19 @@ body {
 /* Footer2 */
 .container__footer2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background: #282828;
     padding: 14px 0 14px;
-    gap: 204px;
     color: white;
 }
 .footer2__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 204px;
     font-size: 14px;
     font-weight: 400;
-    margin: 14px 306px 14px 343px;
+    margin: 0 306px 0 343px;
 }
 
 
