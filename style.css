@@ -368,6 +368,69 @@ body {
     color: white;
 }
 
+.questions__h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 157.4%;
+    color: black;
+    margin: 52px 0 71px 0;
+}
+
+.container__accordion {
+    display: flex;
+    flex-direction: column;
+}
+.accordion {
+    padding: 0 0 0 0;
+}
+.accordion li {
+    list-style-type: none;
+    border-bottom: 1px solid #d9e5e8;
+    position: relative;
+    padding: 10px 50px 10px 0;
+    vertical-align: top;
+}
+.accordion li p {
+    display: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 157.4%;
+    color: #727272;
+}
+.accordion a {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 157.4%;
+    font-size: 20px;
+    user-select: none;
+    color: black;
+    margin: 11px 0 11px 0;
+}
+.accordion .arrow {
+    width: 8px;
+    height: 8px;
+    margin: 0 0 0 933px;
+    border-right: 1px solid #4a6e78;
+    border-bottom: 1px solid #4a6e78;
+    transform: rotate(45deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.accordion p {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 2;
+    padding: 10px;
+}
+
+.accordion .arrow:active {
+    transform: rotate(-135deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
 
 
 
