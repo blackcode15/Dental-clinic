@@ -166,11 +166,19 @@ body {
 .text__info {
     margin: 138px 153px 250px 195px;
 }
+.color_block {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #0086DA;
+    z-index: -1;
+}
 .text__info h1 {
     color: black;
     font-size: 30px;
     font-weight: 600;
     margin: 0 0 10px 0;
+    line-height: 157.4%;
 }
 .text__info p {
     font-size: 18px;
@@ -240,6 +248,7 @@ body {
 }
 .therapy__container h1 p {
     font-weight: 400;
+    z-index: -1;
 }
 .therapy__text {
     text-align: center;
@@ -273,7 +282,6 @@ body {
 
 /* Statistics */
 .container__statistics {
-    /* height: 777px; */
     background-image: url(img/statistic.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -284,6 +292,14 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 0 200px 0;
+}
+.color_block3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #0086DA;
+    margin: 15px 0 0 320px;
+    z-index: -1;
 }
 .statistic__container .result {
     font-weight: 500;
@@ -327,6 +343,22 @@ body {
     flex-direction: column;
     margin: 200px 207px 200px 195px;
 }
+.color_block4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #0086DA;
+    z-index: -1;
+    margin: 15px 0 0 0;
+}
+.color_block5 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #0086DA;
+    margin: 45px 0 0 540px;
+    z-index: -1;
+}
 .h1__button3 {
     display: flex;
     justify-content: center;
@@ -343,13 +375,14 @@ body {
     text-align: center;
     color: white;
 }
-
+.h1_h1 {
+    margin: 52px 0 71px 0;
+}
 .questions__h1 {
     font-weight: 500;
     font-size: 50px;
     line-height: 157.4%;
     color: black;
-    margin: 52px 0 71px 0;
 }
 
 .container__accordion {
@@ -437,6 +470,14 @@ body {
 .container__info {
     display: flex;
     margin: 122px 0 0 205px;
+}
+.color_block6 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #0086DA;
+    margin: 30px 0 0 -10px;
+    z-index: -1;
 }
 .info__h1 h1 {
     color: black;
