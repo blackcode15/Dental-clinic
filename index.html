@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Стоматологічна клініка</title>
 </head>
 <body>
@@ -15,10 +17,10 @@
                     <div class="row__nav">
                         <div class="nav__img"></div>
                         <ul class="nav__menu">
-                            <li><a href="#">Головна</a></li>
-                            <li><a href="#">Про нас</a></li>
-                            <li><a href="#">Наші послуги</a></li>
-                            <li><a href="#">Контакти</a></li>
+                            <li><a href="#header">Головна</a></li>
+                            <li><a href="#about_us">Про нас</a></li>
+                            <li><a href="#therapy">Наші послуги</a></li>
+                            <li><a href="#contact">Контакти</a></li>
                         </ul>
                         <div class="nav__icon">
                             <img src="img/icon.png" alt="">
@@ -31,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="container__header">
+        <div class="container__header" id="header">
             <div class="color2 row">
                 <div class="col-pc-12 col-tab-12 col-mob-12">
                     <div class="row__header">
@@ -43,23 +45,14 @@
                 </div>
             </div>
         </div>
-        <div class="container__history">
+        <div class="container__history" id="about_us">
             <div class="row">
-                <div class="col-pc-6 col-tab-12 col-mob-12">
+                <div class="color3 col-pc-6 col-tab-12 col-mob-12">
                     <div class="row__container">
                         <div class="container__h1">
                             <div class="h1__button"><p>Наша історія</p></div>
                         </div>  
-                        <div class="container__text">
-                            <div class="text__about">
-                                <p>Про нас</p>
-                                <div class="points">
-                                    <div class="point"></div>
-                                    <div class="point"></div>
-                                    <div class="point-blue"></div>
-                                    <div class="point"></div>
-                                 </div>
-                            </div> 
+                        <div class="container__text"> 
                             <div class="text__info">
                                 <h1>Стоматологія “Перевізника” —</h1>
                                 <p>це ідеальне місце, яке задовольнить будь-які стоматологічні потреби.</p>
@@ -75,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <div class="container__therapy">
+        <div class="container__therapy" id="therapy">
             <div class="row">
                 <div class="col-pc-12 col-tab-12 col-mob-12">
                     <div class="therapy__container">
@@ -93,7 +86,7 @@
                 </div>
             </div>
         </div>
-        <div class="container__statistics">
+        <div class="container__statistics" id="statistics">
             <div class="row">
                 <div class="col-pc-12 col-tab-12 col-mob-12">
                     <div class="statistic__container">
@@ -120,7 +113,7 @@
                 </div>
             </div>
         </div>
-        <div class="container__questions">
+        <div class="container__questions" id="questions">
             <div class="row">
                 <div class="col-pc-12 col-tab-12 col-mob-12">
                     <div class="questions__container">
@@ -255,7 +248,7 @@
                 </div>
             </div>
         </div>
-        <div class="container__contacts">
+        <div class="container__contacts" id="contact">
             <div class="row">
                 <div class="col-pc-8 col-tab-12 col-mob-12">
                     <div class="contacts__container">
@@ -330,10 +323,10 @@
                                 <p>Меню</p>
                             </div>
                             <ul class="footer__nav">
-                                <li><a href="#">Головна</a></li>
-                                <li><a href="#">Про нас</a></li>
-                                <li><a href="#">Наші послуги</a></li>
-                                <li><a href="#">Контакти</a></li>
+                                <li><a href="#header">Головна</a></li>
+                                <li><a href="#about_us">Про нас</a></li>
+                                <li><a href="#therapy">Наші послуги</a></li>
+                                <li><a href="#contact">Контакти</a></li>
                             </ul>
                         </div>
                         <div class="footer__block">
@@ -342,12 +335,12 @@
                                 <p>Карта сайту</p>
                             </div>
                             <ul class="footer__nav">
-                                <li><a href="#">Портфоліо</a></li>
-                                <li><a href="#">Наша історія</a></li>
-                                <li><a href="#">Терапія</a></li>
-                                <li><a href="#">Наші досягення</a></li>
-                                <li><a href="#">Поширені запитання</a></li>
-                                <li><a href="#">Зв'яжіться з нами</a></li>
+                                <li><a href="#header">Портфоліо</a></li>
+                                <li><a href="#about_us">Наша історія</a></li>
+                                <li><a href="#therapy">Терапія</a></li>
+                                <li><a href="#statistics">Наші досягення</a></li>
+                                <li><a href="#questions">Поширені запитання</a></li>
+                                <li><a href="#contact">Зв'яжіться з нами</a></li>
                             </ul>
                         </div>
                         <div class="footer__block">
@@ -398,27 +391,7 @@
             </div>
         </div>
     </div>
-    <script>
-        (function($) {
-    $('.accordion > li:eq(0) a').addClass('active').next().slideDown();
-
-    $('.accordion a').click(function(j) {
-        var dropDown = $(this).closest('li').find('p');
-
-        $(this).closest('.accordion').find('p').not(dropDown).slideUp();
-
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active');
-        } else {
-            $(this).closest('.accordion').find('a.active').removeClass('active');
-            $(this).addClass('active');
-        }
-
-        dropDown.stop(false, true).slideToggle();
-
-        j.preventDefault();
-    });
-})(jQuery);
-    </script>
+    <script src="js/scroll.js"></script>
+    <script src="js/accordion.js"></script>
 </body>
 </html>
